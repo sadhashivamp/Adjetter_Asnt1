@@ -1,0 +1,61 @@
+.App {
+  width: 60%;
+  background-color: pink;
+  margin: auto;
+}
+.search_add {
+  margin: 0px 50px;
+}
+.search {
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  color: black;
+  padding: 6px;
+  margin: 10px;
+}
+.addTask {
+  background-color: #e02f10;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  color: white;
+  padding: 6px;
+}
+.todos {
+  background-color: rgb(240, 225, 197);
+  width: 250px;
+  padding: 8px;
+  border-radius: 10px;
+  color: grey;
+}
+
+.task_add_delete {
+  display: flex;
+  align-items: center;
+
+  color: black;
+
+  margin: 0 60px;
+}
+.edit_button {
+  width: 8%;
+  height: 40px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: lightslategrey;
+  color: white;
+}
+
+.delete_btn {
+  position: relative;
+  right: 100px;
+  cursor: pointer;
+  font-size: large;
+  font-weight: 900;
+}
+h1 {
+  padding: 6px;
+  margin-left: 60px;
+}
